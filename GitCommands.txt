@@ -92,3 +92,15 @@ to change previous commit
 
 30)in vim editor press i to insert message 
 To quit : press escape and type on the bottom bar ':wq' to quit the editor
+
+39)To do modifications in previous commit message
+$ git commit --amend
+
+40)To make file unstaged from staged
+$ git restore --staged <filename>
+
+41)To make File restore/unmodify to previous commit
+$ git checkout -- <filename>
+
+42)To make all File restore/unmodify to previous commit
+$ git checkout -f
